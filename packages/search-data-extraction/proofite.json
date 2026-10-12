@@ -10,13 +10,8 @@
   "env": {
     "PROOFITE_API_KEY": {
       "description": "Proofite API key, created at https://proofite.com/app/settings under Connections. Keys can be created read-only.",
-      "required": true
+      "required": true,
+      "secret": true
     }
-  },
-  "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://proofite.com/mcp"
-    }
-  ]
+  }
 }
